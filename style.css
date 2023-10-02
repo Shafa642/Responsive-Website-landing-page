@@ -1,0 +1,1529 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Caveat&family=Montserrat:ital,wght@0,100;0,300;0,700;0,800;0,900;1,300;1,400;1,700;1,800&family=Public+Sans:wght@100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Caveat&family=Montserrat:ital,wght@0,100;0,300;0,700;0,800;0,900;1,300;1,400;1,700;1,800&family=Public+Sans:wght@100&family=Roboto+Slab:wght@100;300;400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.mainContainer {
+    padding-left: 122px;
+}
+
+.syncimg {
+    margin-top: 21px;
+    margin-bottom: 97px;
+}
+
+.header-calendar p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+
+}
+
+.globe {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.time {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.calendar {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.header-calendar {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 0px;
+
+}
+
+.header {
+    font-family: Roboto Slab;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 81px;
+    text-align: left;
+    width: 628px;
+    height: 190px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+
+}
+
+.header-paragraph {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: Roboto;
+    width: 414px;
+    height: 62px;
+    margin-top: 0px;
+}
+
+.header-img-paragraph {
+    display: flex;
+
+}
+
+.header-images {
+    margin-left: 140px;
+}
+
+.manimg {
+    position: relative;
+    z-index: 0;
+}
+
+.ellipsefig {
+    position: absolute;
+    z-index: -1;
+    margin-top: 350px;
+    margin-left: -270px;
+}
+
+.header-content-footer {
+    width: 483px;
+    height: 200px;
+    border-radius: 5px;
+    background: #1E4681;
+    color: white;
+    padding: 20px 27px 10px 26px;
+    margin-left: 350px;
+    margin-top: 80px;
+}
+
+.footer-paragraph {
+    font-family: Roboto Slab;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.footer-author {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: right;
+
+}
+
+
+/*secondpart*/
+
+.headpart {
+    display: flex;
+}
+
+.aboutpart-heading {
+
+    width: 365px;
+    font-family: Roboto Slab;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 170px;
+    margin-bottom: 0px;
+}
+
+.aboutpart-paragraph {
+    width: 662px;
+    height: 374px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 94px;
+
+}
+
+.managerimg {
+    margin-left: 94px;
+    width: 314px;
+    height: 315px;
+}
+
+.cameraman {
+    width: 232px;
+    height: 203px;
+}
+
+
+.lessons-heading,
+.term-heading,
+.period-heading {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.lessons-paragraph,
+.term-paragraph,
+.period-paragraph {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 150px;
+    height: 39px;
+}
+
+.lessons {
+    display: block;
+}
+
+.term {
+    display: block;
+}
+
+.period {
+    display: block;
+}
+
+.footer-texts {
+    display: flex;
+    gap: 95px;
+}
+
+.footerpart {
+    display: flex;
+    gap: 132px;
+}
+
+
+
+/*thirdpart*/
+
+.aboutformat-heading {
+    font-family: Roboto Slab;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 178px;
+    margin-bottom: 89px;
+}
+
+.formatinformation {
+    display: flex;
+    gap: 170px;
+}
+
+.formatheading {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E4681;
+
+}
+
+.formatparagraph {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 271px;
+    height: 109px;
+
+}
+
+/*fourthpart*/
+
+.learnings {
+    font-family: Roboto Slab;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 41px;
+    /*21idi*/
+    margin-top: 170px;
+}
+
+
+ul {
+    width: 662px;
+    height: 374px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+
+
+
+/*tablet size*/
+
+
+@media screen and (min-width:830px) and (max-width:1400px) {
+
+    .mainContainer {
+        padding-left: 70px;
+    }
+
+    .syncimg {
+        margin-top: 22px;
+        margin-bottom: 56px;
+    }
+
+    .header-calendar p {
+        font-size: 10px;
+        line-height: 11px;
+        width: 60px;
+        height: 14px;
+
+    }
+
+    .globeimg,
+    .clockimg,
+    .calendarimg {
+        width: 12px;
+        height: 12px;
+
+    }
+
+    .globe {
+        gap: 5px;
+        display: flex;
+    }
+
+    .time {
+        gap: 5px;
+    }
+
+    .calendar {
+        gap: 5px;
+    }
+
+    .header-calendar {
+        gap: 14px;
+        margin-bottom: 0px;
+
+    }
+
+    .header {
+        font-size: 46px;
+        line-height: 46px;
+        width: 364px;
+        height: 110px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+
+    }
+
+    .header-paragraph {
+        font-size: 12px;
+        line-height: 18px;
+        width: 264px;
+        height: 36px;
+        margin-top: 0px;
+        width: 264px;
+        height: 36px;
+
+
+    }
+
+
+    .header-images {
+        /*  margin-left: 81px;*/
+    }
+
+    .manimg {
+        position: relative;
+        z-index: 0;
+        width: 176px;
+        height: 206px;
+
+    }
+
+
+    .ellipsefig {
+        position: absolute;
+        z-index: -1;
+        /*  margin-top: 350px;
+        margin-left: -270px; /*qaldi*/
+        width: 158px;
+        height: 23px;
+
+    }
+
+    .header-content-footer {
+        width: 280px;
+        height: 115px;
+        border-radius: 3px;
+        padding: 11px 15px 10px 15px;
+
+
+    }
+
+    .footer-paragraph {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .footer-author {
+        font-size: 12px;
+        line-height: 16px;
+
+    }
+
+    .ellipsefig {
+        display: none;
+    }
+
+    /*secondpart*/
+
+
+    .aboutpart-heading {
+
+        width: 211px;
+        font-size: 32px;
+        line-height: 32px;
+        margin-top: 100px;
+        margin-bottom: 0px;
+    }
+
+    .aboutpart-paragraph {
+        width: 383px;
+        height: 216px;
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 54px;
+
+    }
+
+    .managerimg {
+        margin-left: 110px;
+        width: 181px;
+        height: 182px;
+    }
+
+    .cameraman {
+        width: 134px;
+        height: 117px;
+    }
+
+
+    .lessons-heading,
+    .time-heading,
+    .time-heading {
+        font-size: 15px;
+        line-height: 19px;
+
+    }
+
+    .lessons-paragraph,
+    .time-paragraph,
+    .period-paragraph {
+        font-size: 11px;
+        line-height: 14px;
+        width: 108px;
+        height: 23px;
+
+    }
+
+
+    .footer-texts {
+        display: flex;
+        gap: 95px;
+    }
+
+    .footerpart {
+        gap: 55px;
+    }
+
+
+
+    /*thirdpart*/
+
+    .aboutformat-heading {
+        font-size: 32px;
+        line-height: 32px;
+        margin-top: 134px;
+        margin-bottom: 51px;
+    }
+
+    .formatinformation {
+        display: flex;
+        gap: 46px;
+    }
+
+    .formatheading {
+        font-size: 15px;
+        line-height: 19px;
+
+    }
+
+    .formatparagraph {
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 14px;
+        width: 172px;
+        height: 62px;
+
+    }
+
+    /*fourthpart*/
+
+    .learnings {
+        font-size: 32px;
+        line-height: 32px;
+
+        margin-bottom: 22px;
+        /*21idi*/
+        margin-top: 103px;
+    }
+
+
+    ul {
+        width: 383px;
+        height: 216px;
+        font-size: 14px;
+        line-height: 21px;
+
+    }
+
+
+}
+
+
+
+
+/*tablet size*/
+
+
+@media screen and (min-width:370px) and (max-width:829px) {
+    .mainContainer {
+        padding-left: 35px;
+    }
+
+    .syncimg {
+        margin-top: 36px;
+        margin-bottom: 44px;
+        width: 52px;
+        height: 30px;
+
+    }
+
+    .header-calendar p {
+        font-size: 10px;
+        line-height: 11px;
+        width: 75px;
+        height: 18px;
+  
+
+    }
+
+    .globeimg,
+    .clockimg,
+    .calendarimg {
+        width: 10px;
+        height: 9px;
+        margin-bottom: 5px;
+
+    }
+
+    .globe {
+        gap: 3.7px;
+        
+
+    }
+
+    .time {
+        gap: 3.7px;
+    }
+
+    .calendar {
+        gap: 3.7px;
+    }
+
+    .header-calendar {
+        gap: 11.6px;
+        margin-bottom: 0px;
+
+    }
+
+    .header {
+        font-size: 37px;
+        line-height: 38px;
+        width: 292px;
+        height: 88px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .header-paragraph {
+        font-size: 10px;
+        line-height: 15px;
+        width: 212px;
+        height: 28px;
+        margin-top: 0px;
+    }
+
+
+
+
+
+    .header-img-paragraph {
+        display: block;
+    }
+
+    .header-images {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .ellipsefig {
+        display: none;
+    }
+
+    .manimg {
+        width: 141px;
+        height: 175px;
+        /* margin-left: 200px;*/
+    }
+
+
+
+    .header-content-footer {
+        width: 225px;
+        height: 93px;
+        border-radius: 2px;
+        padding: 8px 12px 10px 26px;
+        margin-left: 40px;
+        margin-top: 39px;
+
+
+    }
+
+    .footer-paragraph {
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+    .footer-author {
+        font-size: 10px;
+        line-height: 13px;
+
+    }
+
+
+
+    /*secondpart*/
+
+
+    .aboutpart-heading {
+
+        width: 170px;
+        font-size: 26px;
+        line-height: 26px;
+        margin-top: 75px;
+        margin-bottom: 0px;
+    }
+
+    .aboutpart-paragraph {
+        width: 308px;
+        height: 174px;
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 54px;
+
+    }
+
+    .headpart {
+        display: block;
+        align-items: center;
+    }
+
+    .managerimg {
+        /*    margin-left: 110px;*/
+        width: 170px;
+        height: 160px;
+        margin-bottom: 20px;
+    }
+
+    .cameraman {
+        display: none;
+     
+    }
+
+
+    .lessons-heading,
+    .term-heading,
+    .period-heading {
+        font-size: 12px;
+        line-height: 15px;
+
+    }
+
+    .lessons-paragraph,
+    .term-paragraph,
+    .period-paragraph {
+        font-size: 10px;
+        line-height: 13px;
+        width: 86px;
+        height: 18px;
+
+    }
+
+
+    .footer-texts {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .period {
+        margin-top: -10px;
+    }
+
+
+
+    /*thirdpart*/
+
+
+
+    .aboutformat-heading {
+        font-size: 26px;
+        line-height: 26px;
+        margin-top: 76px;
+        margin-bottom: 51px;
+    }
+
+    .formatinformation {
+        display: block;
+        gap: 20px;
+    }
+
+    .formatheading {
+        font-size: 12px;
+        line-height: 15px;
+
+    }
+
+    .formatparagraph {
+        font-size: 10px;
+        line-height: 13px;
+        width: 165px;
+        height: 51px;
+
+    }
+
+    /*fourthpart*/
+
+    .learnings {
+        font-size: 26px;
+        line-height: 26px;
+        margin-bottom: 22px;
+        margin-top: 94px;
+    }
+
+
+    ul {
+        width: 299px;
+        height: 174px;
+        font-size: 12px;
+        line-height: 18px;
+
+    }
+
+}
+
+
+
+
+
+/* adding part */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Caveat&family=Montserrat:ital,wght@0,100;0,300;0,700;0,800;0,900;1,300;1,400;1,700;1,800&family=Public+Sans:wght@100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Caveat&family=Montserrat:ital,wght@0,100;0,300;0,700;0,800;0,900;1,300;1,400;1,700;1,800&family=Public+Sans:wght@100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.cardsSection {
+    margin-bottom: 121px;
+
+}
+
+
+.block {
+    width: 399px;
+    height: 328px;
+    border-radius: 30px;
+    display: block;
+    gap: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.heading1 {
+    padding: 0 122px;
+    margin-bottom: 95px;
+    font-family: Roboto Slab;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 56px;
+
+}
+
+.cardText {
+    padding-left: 20px;
+
+}
+
+h1 {
+    font-family: Roboto Slab;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+}
+
+h2 {
+    margin-top: 2px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: left;
+
+}
+
+p {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+
+}
+
+.cardDiv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr) auto;
+    gap: 30px;
+    /* Adjust the gap as needed */
+    margin: 0px 84px;
+}
+
+
+
+.heading8 {
+    margin-bottom: 0px;
+}
+
+.parhead8 {
+    margin-top: 0px;
+}
+
+/*second part */
+
+
+.singlecard {
+    background-color: #EFEFEF;
+    padding: 121px 122px;
+    margin-bottom: 0px;
+}
+
+.card {
+    height: 451px;
+    border-radius: 30px;
+    background-color: white;
+    padding: 40px 45px 30px 45px;
+
+
+}
+
+.par2 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    width: 700px;
+    height: 203px;
+
+
+    /*yeni*/
+}
+
+.head2 {
+    font-family: Roboto Slab;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    margin-bottom: 34px;
+    /*34 yerine 70*/
+    width: 987px;
+    height: 93px;
+}
+
+
+
+.headinglogo {
+    display: block;
+}
+
+.imgparlogo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 29px;
+
+}
+
+.imgtext {
+    font-family: Roboto Slab;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.image {
+    padding-left: 26px;
+}
+
+
+
+
+/*third part*/
+
+
+.PricesDiv {
+    background-color: #9DC9C8;
+    padding: 179px 122px;
+
+}
+
+.heading3 {
+    font-family: Roboto Slab;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    height: 66px;
+    width: 908px;
+    margin-bottom: 54px;
+}
+
+.Par1 {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.heading4 {
+    font-family: Roboto;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 81px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+.paragraph2,
+.paragraph3 {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    margin-bottom: 9px;
+
+}
+
+.textpar2,
+.textpar3 {
+    width: 294px;
+    height: 70px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+
+}
+
+.text {
+    display: flex;
+    gap: 70px;
+}
+
+
+
+
+
+
+/*foutth part*/
+
+
+.ContactsDiv {
+    background-color: black;
+    height: 390px;
+    padding: 54px 122px 50px 122px;
+
+}
+
+.footerSection {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.logosDiv {
+    display: flex;
+    margin-top: 30px;
+    gap: 18px;
+}
+
+.information {
+    color: white;
+    margin-top: 220px;
+}
+
+.numbersDetails,
+.email {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.emaillogo {
+    width: 27px;
+    height: 27px;
+}
+
+.telephonelogo {
+    width: 27px;
+    height: 18px;
+}
+
+.number,
+.emailaddress {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+
+
+
+/*tablet screen*/
+
+
+@media screen and (min-width:833px) and (max-width:1440px) {
+    .cardsSection {
+        margin-bottom: 121px;
+    }
+
+    .heading1 {
+        margin-top: 60px;
+        padding: 0 70px;
+        margin-bottom: 55px;
+
+
+
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 16px;
+
+    }
+
+    .cardDiv {
+        gap: 21px;
+        margin: 0px 49px;
+    }
+
+    .top>.topimage1 {
+        width: 231px;
+        height: 93px;
+    }
+
+    .block {
+        width: 231px;
+        height: 190px;
+        border-radius: 17px;
+
+    }
+
+    .cardText {
+        padding-left: 10px;
+
+    }
+
+    h2 {
+        font-size: 17px;
+        line-height: 22px;
+    }
+
+    p {
+        font-size: 14px;
+        font-family: Roboto;
+        line-height: 18px;
+
+    }
+
+    /*second part*/
+
+    .singlecard {
+
+        padding: 100px 72px;
+    }
+
+    .card {
+        height: 261px;
+        border-radius: 17px;
+        padding: 23px 26px 28px 26px;
+    }
+
+    .head2 {
+
+        font-size: 32px;
+        line-height: 32px;
+        margin-bottom: 20px;
+        /*yeni*/
+        width: 571px;
+        height: 53px;
+
+
+
+    }
+
+    .par2 {
+        font-size: 12px;
+        line-height: 18px;
+        width: 405px;
+        height: 117px;
+        padding-left: 26px;
+    }
+
+
+    .girlimage {
+        width: 110px;
+        height: 98px;
+    }
+
+    .imagefb {
+        width: 18px;
+        height: 18px;
+    }
+
+    .imgparlogo {
+        margin-top: 20px;
+
+    }
+
+    .imgtext {
+        font-size: 17px;
+        line-height: 17px;
+    }
+
+    .image {
+        padding-left: 15px;
+    }
+
+
+
+
+    /*third part*/
+
+
+    .PricesDiv {
+        padding: 103px 70px;
+
+    }
+
+    .heading3 {
+        font-size: 32px;
+        line-height: 32px;
+        margin-bottom: 31px;
+
+    }
+
+    .Par1 {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .heading4 {
+        font-size: 46px;
+        line-height: 46px;
+    }
+
+
+    .paragraph2,
+    .paragraph3 {
+        font-size: 14px;
+        line-height: 14px;
+        margin-bottom: 5px;
+
+    }
+
+    .textpar2,
+    .textpar3 {
+        width: 186px;
+        height: 19px;
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .text {
+        gap: 40px;
+    }
+
+
+
+
+
+
+    /*fourth part*/
+
+
+    .ContactsDiv {
+        height: 225px;
+        padding: 28px 70px 28px 69px;
+
+    }
+
+
+    .logosDiv {
+        margin-top: 20px;
+        gap: 14px;
+    }
+
+    .information {
+        margin-top: 120px;
+    }
+
+    .numbersDetails,
+    .email {
+        gap: 12px;
+    }
+
+    .emaillogo {
+        width: 15px;
+        height: 10px;
+    }
+
+    .telephonelogo {
+        width: 15px;
+        height: 15px;
+    }
+
+    .number,
+    .emailaddress {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+
+    .blackwhiteimg {
+        width: 66px;
+        height: 39px;
+    }
+
+
+    .logopic1 {
+        width: 19px;
+        height: 19.7px;
+    }
+
+}
+
+
+
+
+
+
+
+
+/*mobile size*/
+@media screen and (min-width:370px) and (max-width:830px) {
+    .cardsSection {
+        margin-bottom: 40px;
+        width: 100%;
+    }
+
+    .heading1 {
+        margin-top: 40px;
+        margin-bottom: 36px;
+        line-height: 26px;
+        margin-left: 70px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+
+    .cardDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 24px;
+
+    }
+
+    .top>.topimage1 {
+        width: 185px;
+        height: 74px;
+    }
+
+    .block {
+        width: 185px;
+        height: 152px;
+        border-radius: 14px;
+    }
+
+    .cardText {
+        padding-left: 9px;
+
+    }
+
+    h2 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    p {
+        font-size: 12px;
+        line-height: 15px;
+
+    }
+
+    /*second part*/
+
+    .singlecard {
+        padding: 42px 36px;
+        margin: 0px;
+    }
+
+    .card {
+        height: 248px;
+        border-radius: 17px;
+        padding: 18px 21px 10px 22px;
+    }
+
+    .head2 {
+
+        font-size: 26px;
+        line-height: 26px;
+        margin-bottom: 11px;
+        width: 257px;
+        height: 69px;
+    }
+
+
+    h1 {
+        margin: 0px;
+    }
+
+
+
+
+
+    .par2 {
+        font-size: 10px;
+        line-height: 15px;
+        height: 100px;
+        width: 350px;
+    }
+
+
+    .girlimage {
+        width: 80px;
+        height: 84px;
+
+    }
+
+    .imagefb {
+        width: 15px;
+        height: 17px;
+    }
+
+    .imgparlogo {
+        margin-top: 20px;
+
+    }
+
+    .imgtext {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .image {
+        padding-left: 0px;
+    }
+
+
+
+
+    /*third part*/
+
+
+    .PricesDiv {
+        padding: 65px 57px;
+
+    }
+
+    .heading3 {
+        font-size: 26px;
+        line-height: 26px;
+        margin-bottom: 22px;
+        width: 100%;
+    }
+
+    .Par1 {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .heading4 {
+        font-size: 37px;
+        line-height: 37px;
+    }
+
+
+    .paragraph2,
+    .paragraph3 {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .textpar2,
+    .textpar3 {
+        width: 140px;
+        height: 19px;
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .text {
+        gap: 31px;
+    }
+
+
+
+
+
+
+    /*fourth part*/
+
+
+    .ContactsDiv {
+        height: 225px;
+        /* padding: 28px 70px 28px 69px;*/
+        padding-left: 56px;
+        padding-top: 23PX;
+    }
+
+    .footerSection {
+        display: block;
+        gap: 47px;
+    }
+
+    .blackwhiteimg {
+        width: 53px;
+        height: 31px;
+    }
+
+
+    .logosDiv {
+        margin-top: 15px;
+        gap: 9px;
+    }
+
+    .numbersDetails,
+    .email {
+        gap: 11px;
+    }
+
+    .emaillogo {
+        width: 12px;
+        height: 8px;
+    }
+
+    .telephonelogo {
+        width: 15px;
+        height: 15px;
+    }
+
+    .number,
+    .emailaddress {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .logopic1 {
+        width: 19px;
+        height: 19.7px;
+    }
+
+    .information {
+        margin-top: 50px;
+    }
+
+
+    .rightsidecontact {
+        margin-top: 47px;
+    }
+}
